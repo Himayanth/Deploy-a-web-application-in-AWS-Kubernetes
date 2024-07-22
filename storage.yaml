@@ -1,0 +1,5 @@
+apiVersion: Storage.k8s.io/v1
+kind: StorageClass
+metadata: 
+  name: aws-efs
+provisioner: eksprov/aws-efs
